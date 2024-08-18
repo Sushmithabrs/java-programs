@@ -1,0 +1,35 @@
+package Arrays;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.LinkedList;
+import java.util.PriorityQueue;
+import java.util.TreeSet;
+import java.util.Vector;
+
+public class CollectionPrg {
+
+	public static void main(String[] args) {
+		//ArrayList a1=new ArrayList();
+		//LinkedList a1=new LinkedList();
+		//Vector a1=new Vector();
+		//PriorityQueue a1=new PriorityQueue ();
+		//HashSet a1=new HashSet();
+		LinkedHashSet a1=new LinkedHashSet();
+		a1.add("sushmitha");
+		a1.add("supriya");
+		a1.add("anu");
+		a1.add("nagesh");
+		a1.add("urvik");
+		a1.add("chethu");
+		a1.add("chethu");
+		a1.add(null);
+		//a1.add(null);
+	    //Collections.sort(a1);
+		System.out.println(a1);
+	}
+
+	}
+
